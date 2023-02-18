@@ -1,0 +1,52 @@
+.box {
+    width: 900px;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+
+.header {
+    height: 90px;
+    border: 3px solid red;
+    margin: 15px;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    height: 500px;
+}
+
+.column {
+    float: left;
+    border: 3px solid rgb(221, 0, 255);
+    text-align: center;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 15px;
+    
+}
+.column.side {
+    width: 105px;
+}
+
+.column.middle {
+    max-width: 600px;
+}
+
+.footer {
+    height: 30px;
+    position: relative;
+    border: 3px solid rgb(255, 0, 183);
+    margin: 45px 15px 15px 15px;
+}
+

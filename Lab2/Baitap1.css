@@ -1,0 +1,56 @@
+.page{
+    width: 900px;
+    border: 5px solid red;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.header {
+    height: 90px;
+    border-bottom: 5px solid red;
+    position: relative;
+}
+.hText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.container {
+    height: 450px;
+}
+.column {
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+}
+
+.column.middle {
+    width: 80%;
+    border: 5px solid red;
+    border-top: none;
+}
+
+.column.side {
+    width: 10%;
+    border-bottom: 5px solid red;
+}
+
+  .mainFooter {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    transform: translateY(-100%);
+    border-top: 5px solid red;
+  }
+.footer {
+    height: 40px;
+    position: relative;
+}

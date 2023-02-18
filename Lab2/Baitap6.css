@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #dadada;
+}
+
+.page {
+    margin: 10px;
+}
+
+.header {
+    height: 70px;
+    background-color: #50a956;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.header-title p {
+    font-size: 32px;
+    padding: 0 0 0 10px;
+}
+
+.header-des p {
+    font-size: 16px;
+    margin: 0 0 5px 15px;
+}
+
+.column {
+    float: left;
+}
+
+.container-menu {
+    width: 20%;
+}
+
+.menu-list {
+    list-style: none;
+    width: 90%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-list-item:first-child {
+    color: white;
+    background-color: #50a956;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.menu-list-item:not(:first-child) {
+    color: rgb(0, 0, 0);
+    background-color: #dadada;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.container-content {
+    width: 60%;
+    margin-top: 16px;
+}
+
+.container-sidebar {
+    width: 15%;
+    float: right;
+}
+
+.content-name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content-parah-img1 {
+    width: 100px;
+    height: 100px;
+    margin-right: 4px;
+}
+
+.content-column {
+    display: flex;
+}
+
+.content-parah {
+    margin-top: 10px;
+}
+
+.content-parah-p1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.content-parah-list {
+    display: flex;
+    list-style: none;
+    margin: 8px 0 20px 0;
+    gap: 4px;
+    font-size: 20px;
+}
+
+.content-name2 {
+    margin-bottom: 10px;
+}
+
+.content-parah-img2 {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.content-parah-p2 {
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 400px;
+    text-align: center;
+    background-color: #dadada;
+    border-radius: 4px;
+}
+
+.footer-des {
+    padding: 20px;
+    font-size: 22px;
+}

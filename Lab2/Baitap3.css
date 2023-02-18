@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid rgb(113, 113, 113);
+}
+
+.header-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.logo {
+    padding: 20px 25px;
+    background-color: rgb(113, 113, 113);
+    color: white;
+}
+.btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.header-description {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.menu-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(75, 75, 252);
+    gap: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    list-style: none;
+}
+h2 {
+    font-size: 24px;
+}
+.header-menu-item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color:rgb(113, 113, 113);
+    list-style: none;
+}
+.menu-item {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    position: relative;
+}
+.menu-item:hover{
+    background-color: white;
+    color: rgb(113, 113, 113);
+}
+.menu-item:not(:last-child)::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1.5px;
+    height: 16px;
+    background-color: white;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu-link-item {
+    position: relative;
+}
+.menu-link-item:not(:last-child)::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1.5px;
+    height: 13px;
+    background-color: rgb(75, 75, 252);
+    right: -10px;
+    top: 50%;
+    transform: translateY(-35%);
+}
+.menu {
+    margin-bottom: 20px;
+}
+/* body */
+.body {
+    margin: 10px;
+    display: flex;
+    color: rgb(113, 113, 113);
+}
+.body-content {
+    width: 55%;
+
+}
+.body-slideBar {
+    width: 40%;
+    margin-left: 30px;
+}
+
+.content-textTitle {
+    margin-bottom: 20px;
+}
+
+.content-newProduct {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.content-img {
+    width: 40%;
+    background-color: rgb(113, 113, 113);
+    border-radius: 5px;
+    position: relative;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: white;
+}
+.content-nameProduct {
+    width: 55%;
+}
+
+.content-textH3 {
+    top:50%;
+    transform: translateY(-50%);
+    color: rgb(75, 75, 252);
+}
+
+.content-List {
+    margin: 20px 0px 20px 0px;
+    border: 1px solid rgb(113, 113, 113,0.3);
+}
+
+.content-thumbList {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}   
+
+.thumList-item {
+    width: 12%;
+    padding: 13px 0;
+    background-color: rgb(113, 113, 113);
+    list-style: none ;
+}
+.newList {
+    margin-left: 8px;
+}
+.newList dd {
+    padding-bottom: 10px;
+}
+.newList dd a {
+    color: rgb(75, 75, 252);
+}
+.newList dd:not(:last-child) {
+    border-bottom: 2px dotted rgb(113, 113, 113);
+    margin-bottom: 5px;
+} 
+.newTextTitle {
+    margin-bottom: 10px;
+}
+
+.newList-item {
+    margin-bottom: 5px;
+}
+.content-banner {
+    background-color: rgb(113, 113, 113);
+    position: relative;
+    border: 1px solid black;
+    height: 80px;
+    margin: 10px 0 30px 0;
+}
+.slideBar-textTitle {
+    margin-bottom: 10px;
+}
+.slideBar-link {
+    color: rgb(75, 75, 252);
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.slideBar-link-item {
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.slideBar-banner-List {
+    margin-top: 10px;
+}
+.slideBar-bannerList {
+    list-style: none;
+    color: white;
+}
+.bannerList-item {
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:rgb(113, 113, 113);
+    cursor: pointer;
+    border-radius: 6px;
+}
+.underline {
+    position: relative;
+}
+.underline::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(113, 113, 113,0.4);
+    top: 50%;
+    transform: rotate(0deg) translate(0px,16px);
+
+}
+.footer {
+    padding-top: 5px;
+    margin: 10px;
+    border-top: 1px solid #000;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.Copyright {
+    text-align: right;
+    margin-top: 6px;
+}
